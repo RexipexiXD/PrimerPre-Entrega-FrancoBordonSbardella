@@ -1,0 +1,173 @@
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: firebrick;
+    margin: 0;
+    background-image: url("https://w0.peakpx.com/wallpaper/129/278/HD-wallpaper-i-wantyou-inside-me-burger-cute-weird-food-random-awesome-simple-funny-burger.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding: 0;
+    font-family:'century gothic';
+    flex-wrap: wrap;
+    ul{list-style-type: none;}
+    li{font-size: 1.25em;}
+}
+
+.background-image{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    min-width: 250px;
+    flex: 1;
+    padding: 25px;
+}
+
+.-flex:first-child {
+    flex: 2;
+    padding: 25px;
+}
+
+.navegador{
+    display:flex;
+    flex-direction: row;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo{
+    width: 65px;
+    display: inline-block;
+}
+
+.contenedor{
+    background-color: burlywood;
+    font-size: 30px;
+    opacity: .9;
+    border-radius: 25px;
+}
+
+.contenedor2{
+    background-color: burlywood;
+    font-size: 30px;
+    opacity: .9;
+    border-radius: 35px;
+    height: 325px;
+}
+
+.navegador li{
+    margin: 15px;
+    list-style: none;
+
+}
+
+.navegador li a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 800;
+}
+
+.Cajamasprincipal{
+    display: flex;
+    padding: 5em 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.CajaPrincipal{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 2px black;
+    width: 80%;
+    padding: 20px 100px 100px 100px;
+    height: min-content;
+}
+
+.caja{
+    background-color: bisque;
+    border: 1px black;
+    width: 20%;
+    display: inline-block;
+    margin: 13px;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    font-size: 25px;
+    opacity: .9;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.columna1 {
+    flex: 1;
+    max-width: 375px 667px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+.columna2 {
+    flex: 1;
+    max-width: 375px 667px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+.columna3 {
+    flex: 1;
+    max-width: 375px 667px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+.columna4 {
+    flex: 1;
+    max-width: 375px 667px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+.columna5 {
+    flex: 1;
+    max-width: 375px 667px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+.columna6 {
+    flex: 1;
+    max-width: 375px 667px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
